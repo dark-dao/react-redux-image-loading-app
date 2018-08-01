@@ -1,0 +1,38 @@
+.transition(@property: all, @delay: 0.2s, @effect: ease-in-out ) {
+     -webkit-transition: @arguments;
+        -moz-transition: @arguments;
+         -ms-transition: @arguments;
+          -o-transition: @arguments;
+             transition: @arguments;
+}
+
+._header-link {
+  min-width: 60px;
+  max-width: 200px;
+  height: auto;
+  overflow: hidden;
+  text-align: center;
+  text-overflow: ellipsis;
+
+  a {
+    display: block;
+    width: auto;
+    height: auto;
+    padding: 20px;
+    font-size: 24px;
+    outline: none;
+    color: #39383C;
+    text-decoration: none;
+  }
+  &:hover {
+    color: #BCD8D5;
+  }
+  &:active {
+      background-color: #BCD8D5;
+      .transition();
+  }
+  &.active {
+    color: #115273;
+    font-weight: bold;
+  }
+}

@@ -1,0 +1,33 @@
+._header-link {
+  min-width: 60px;
+  max-width: 200px;
+  height: auto;
+  overflow: hidden;
+  text-align: center;
+  text-overflow: ellipsis;
+}
+._header-link a {
+  display: block;
+  width: auto;
+  height: auto;
+  padding: 20px;
+  font-size: 24px;
+  outline: none;
+  color: #39383C;
+  text-decoration: none;
+}
+._header-link:hover {
+  color: #BCD8D5;
+}
+._header-link:active {
+  background-color: #BCD8D5;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+._header-link.active {
+  color: #115273;
+  font-weight: bold;
+}

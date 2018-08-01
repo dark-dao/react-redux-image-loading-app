@@ -1,0 +1,11 @@
+._page-container-header {
+  width: 100%;
+  height: auto;
+  padding: 10px 10px 10px 50px;
+  color: #283143;
+  cursor: default;
+}
+._page-container-header .text {
+  max-width: 200px;
+  border-bottom: 1px solid #39383C;
+}

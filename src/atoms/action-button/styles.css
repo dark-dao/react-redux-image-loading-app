@@ -1,0 +1,22 @@
+._action-button {
+  width: auto;
+  max-width: 200px;
+  height: 35px;
+  padding: 5px 15px 5px 15px;
+  border: 1px solid #39383C;
+  background: none;
+  font-size: 1.2em;
+  color: #39383C;
+  outline: none;
+  letter-spacing: 3px;
+  background-color: #567D8C;
+  cursor: pointer;
+}
+._action-button:hover {
+  background-color: #164059;
+  color: #fff;
+}
+._action-button:active {
+  color: #fff;
+  background-color: #071826;
+}

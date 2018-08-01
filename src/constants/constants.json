@@ -1,0 +1,9 @@
+{
+  "GET_IMAGE_REQUEST": "GetImageRequest->GET",
+  "GET_IMAGE_SUCCESS": "GetImageRequest->GET[Success]",
+  "GET_IMAGE_FAIL": "GetImageRequest->GET[Fail]",
+
+  "SET_IMAGE_HISTORY_ADD": "SetImageHistory->Add",
+  "SET_IMAGE_HISTORY_DELETE": "SetImageHistory->Delete",
+  "SET_IMAGE_HISTORY_CLEAR": "SetImageHistory->Clear"
+}

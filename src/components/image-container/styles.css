@@ -1,0 +1,22 @@
+._image-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  padding: 20px;
+}
+._image-container ._image-card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  width: auto;
+  height: auto;
+  background-color: #FEFFFC;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+._image-container ._image-card ._image-title {
+  text-align: center;
+  padding: 15px 10px 15px 10px;
+}

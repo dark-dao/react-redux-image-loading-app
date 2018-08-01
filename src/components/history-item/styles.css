@@ -1,0 +1,33 @@
+._history-item {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: start;
+  width: 100%;
+  height: auto;
+  padding: 20px 30px 20px 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+._history-item .image-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+  height: auto;
+  margin-right: 25px;
+}
+._history-item .image-container .button-container {
+  position: relative;
+  width: max-content;
+  height: max-content;
+  top: -30px;
+  left: 170px;
+}
+._history-item ._history-item-title {
+  max-width: 500px;
+  width: auto;
+}
+._history-item ._history-item-title ._history-item-name {
+  font-size: 1.4em;
+  overflow: auto;
+  text-overflow: ellipsis;
+}
