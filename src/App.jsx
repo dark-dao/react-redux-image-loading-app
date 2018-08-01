@@ -2,9 +2,6 @@ import React, { Component } from 'react';
 
 import './App.css';
 import {
-  LoaderBar
-} from './atoms';
-import {
   Header
 } from './components';
 
